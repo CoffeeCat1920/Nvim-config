@@ -7,13 +7,13 @@ return {
   },
   keys = {
     {
-      "<leader>-",
+      "<leader>e",
       mode = { "n", "v" },
       "<cmd>Yazi toggle<cr>",
       desc = "Open yazi at the current file",
     },
     {
-      "<leader>e",
+      "<leader>-",
       "<cmd>Yazi cwd<cr>",
       desc = "Open the file manager in nvim's working directory",
     },
